@@ -5,5 +5,5 @@
 -- Add support for C# and XAML files
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, { pattern = { "*.xaml" }, command = "setf xml" })
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, { pattern = { "*.csproj" }, command = "setf xml" })
-vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, { pattern = { "*.sln" }, command = "setf xml" })
+vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, { pattern = { "*.vbproj" }, command = "setf xml" })
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, { pattern = { "*.axaml" }, command = "setf xml" })
