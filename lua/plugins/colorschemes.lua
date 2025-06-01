@@ -114,6 +114,13 @@ return {
   },
   { "shaunsingh/solarized.nvim" },
   { "Mofiqul/vscode.nvim" },
+  { "csgn/nolife.nvim" },
+  { "rktjmp/lush.nvim" },
+  { "savq/melange-nvim" },
+  { "vague2k/vague.nvim" },
+  { "Shatur/neovim-ayu" },
+  { "ribru17/bamboo.nvim" },
+  { "oxfist/night-owl.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
