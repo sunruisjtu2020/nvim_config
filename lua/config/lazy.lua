@@ -14,6 +14,9 @@ require("lazy").setup({
     -- import/override with your plugins
     { import = "plugins" },
   },
+  git = {
+    depth = 1,
+  },
   ui = {
     border = "rounded",
   },
