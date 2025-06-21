@@ -19,7 +19,7 @@ return {
     -- Smear cursor in insert mode.
     -- See also `vertical_bar_cursor_insert_mode` and `distance_stop_animating_vertical_bar`.
     smear_insert_mode = true,
-    cursor_color = "#90D05A",
+    cursor_color = "#94E59A",
     stiffness = 0.5,
     trailing_stiffness = 0.3,
     trailing_exponent = 5,
