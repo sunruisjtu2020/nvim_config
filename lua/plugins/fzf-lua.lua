@@ -8,5 +8,7 @@ return {
 	opts = {},
 	keys = {
 		{ "<leader>fl", "<cmd>FzfLua live_grep<CR>", desc = "Live Grep" },
+		{ "<leader>fs", "<cmd>FzfLua lsp_document_symbols<CR>", desc = "Document Symbols" },
+		{ "<leader>fd", "<cmd>FzfLua lsp_document_diagnostics<CR>", desc = "Document Diagnostics" },
 	},
 }
